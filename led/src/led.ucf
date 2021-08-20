@@ -1,0 +1,8 @@
+//global system clock
+NET "sys_clk" 		LOC = A10 	| IOSTANDARD = LVTTL;
+//reset signal
+NET "sys_rst_n" 	LOC = R7 	| IOSTANDARD = LVTTL;
+//led_1 signal
+NET "led_1" 		LOC = T9 	| IOSTANDARD = LVTTL;
+//led_2 signal
+NET "led_2" 		LOC = R9 	| IOSTANDARD = LVTTL;

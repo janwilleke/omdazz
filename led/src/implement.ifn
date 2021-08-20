@@ -1,0 +1,10 @@
+set -xsthdpdir xst_work
+run
+-ifn ../src/implement.prj
+-p xc6slx16-ftg256-2
+-ofn led
+-ifmt mixed
+-opt_mode speed
+-opt_level 2
+-bufg 0
+-top led
